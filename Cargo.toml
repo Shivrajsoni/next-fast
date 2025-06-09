@@ -4,7 +4,7 @@ version = "0.1.1"
 edition = "2021"
 description = "A CLI wrapper that creates Next.js apps with bun and initializes Prisma"
 license = "MIT"
-repository = "https://github.com/Shivrajsoni/fast"
+repository = "https://github.com/Shivrajsoni/next-fast"
 keywords = ["nextjs", "prisma", "bun", "cli"]
 categories = ["command-line-utilities", "development-tools"]
 
