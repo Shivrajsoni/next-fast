@@ -5,7 +5,7 @@ use std::process::{Command, Stdio};
 use std::path::Path;
 
 #[derive(Parser)]
-#[command(name = "fast")]
+#[command(name = "next-fast")]
 #[command(about = "Create a Next.js app with bun and initialize Prisma")]
 #[command(version = "0.1.0")]
 struct Cli {

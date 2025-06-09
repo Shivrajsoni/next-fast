@@ -1,6 +1,6 @@
 [package]
 name = "next-fast"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A CLI wrapper that creates Next.js apps with bun and initializes Prisma"
 license = "MIT"
@@ -9,7 +9,7 @@ keywords = ["nextjs", "prisma", "bun", "cli"]
 categories = ["command-line-utilities", "development-tools"]
 
 [[bin]]
-name = "fast"
+name = "next-fast"
 path = "src/main.rs"
 
 [dependencies]
