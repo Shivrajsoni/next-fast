@@ -1,5 +1,5 @@
 [package]
-name = "nextjs-prisma-cli"
+name = "next-fast"
 version = "0.1.0"
 edition = "2021"
 description = "A CLI wrapper that creates Next.js apps with bun and initializes Prisma"

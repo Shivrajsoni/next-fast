@@ -229,7 +229,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "nextjs-prisma-cli"
+name = "next-fast"
 version = "0.1.0"
 dependencies = [
  "clap",
