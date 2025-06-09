@@ -1,0 +1,18 @@
+[package]
+name = "nextjs-prisma-cli"
+version = "0.1.0"
+edition = "2021"
+description = "A CLI wrapper that creates Next.js apps with bun and initializes Prisma"
+license = "MIT"
+repository = "https://github.com/Shivrajsoni/fast"
+keywords = ["nextjs", "prisma", "bun", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "fast"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+colored = "2.0"
